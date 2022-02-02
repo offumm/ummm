@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    color: red;
+}
+
+h1 {
+    text-align: right;
+    color: rgb(52, 8, 207);
+}
+table,
+td,
+tr {
+    border: 1px solid rgb(241, 9, 9);
+    border-collapse: collapse;
+    width: 50%;
+}
+#fname{
+    border: 1px solid rgb(9, 241, 67);
+    border-collapse: collapse;
+    /*width: 100%;*/
+}
+.tbl{
+    color: red;
+}
+*{
+    color: aqua;
+}

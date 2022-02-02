@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Off Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: mediumSeaGreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(116, 16, 16);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        favourite
+    </header>
+    <section>
+        <nav>
+            <a href="index3.html">New portfolio</a><br>
+            <a href="index1.html" target="_blank">Old portfolio</a>
+        </nav>
+        <article align="center">
+            <img src="images/my picture.jpg" width="20%" hight="20%">
+            <h1>ด.ช.กันต์ธีร์ บัวทัน</h1>
+            <p>__________________________________</p>
+        <h2>สิ่งที่ชอบทำ</h2>
+        <h3>เล่นเกม</h3>
+        <p>__________________________________</p>
+        <h2>สิ่งที่ชอบกิน</h2>
+        <h3>ของทอด</h3>
+        <p>__________________________________</p>
+        <h2>ตัวละครในการ์ตูนที่ชอบ</h2>
+        <h3>โคนัน</h3>
+        <img src="images/CONAN.png" width="20%" hight="20%">
+        <p>__________________________________</p>
+        <h2>เกมที่ชอบ</h2>
+        <h3>ROV</h3>
+        <img src="images/ดาวน์โหลด.jpg" width="20%" hight="20%">
+        <p>__________________________________</p>
+        <h2>บุคคลที่ชอบ</h2>
+        <h3>f pongpitak</h3>
+        <img src="images/f.jpg" width="20%" hight="20%">
+        <p>__________________________________</p>
+        </article>
+    </section>
+    <footer>
+        M.1 kantee buathan
+    </footer>
+</body>
+</html>
